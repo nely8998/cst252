@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+}
+/* Nav Bar style */
+.navbar-header {
+    float: left;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+.navbar-brand {float:none;}
+
+h1 {
+  color: white;
+  font-size: 320%;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+  text-indent: 10px;
+}
