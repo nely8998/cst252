@@ -9,9 +9,10 @@ body {
 /* Nav Bar style */
 .navbar-brand {
     float: left;
-    padding: 15px;
+    padding: 0px;
     text-align: center;
     width: 100%;
+    font-size: 25px;
 }
 .content h1{
   text-align: center;
@@ -26,6 +27,7 @@ body {
   display: -webkit-flex;
   display: flex;
   height: auto;
+  padding: 19px;
 }
 
 .column {
