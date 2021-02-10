@@ -38,7 +38,7 @@ body {
 /* Styling of CONTENT using Flexbox --ENDS HERE--- */
 .content {
   background-color: #e3f2fd;
-  padding: 30px;
+  padding: 20px;
   height: 420px;
   font-size: 35px;
 }
