@@ -1,11 +1,114 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Lab X - Subject/Topic</title>
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
-	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<meta charset="utf-8">
+	<title>Complete Bootstrap 4 website Layout</title>
+ <!-- Latest compiled and minified Bootstrap CSS -->
+ <link rel="stylesheet"
+ href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+ <!-- jQuery library -->
+ <script
+ src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <!-- Popper JS -->
+ <script
+ src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+ </script>
+ <!-- Latest compiled Bootstrap JavaScript -->
+ <script
+ src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+ <script src="js/myscript.js"></script>
+ <!-- Mobile-first: ensure proper rendering and touch zooming -->
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="css/lab.css">
 </head>
 <body>
+<!-- Navigation Starts here -->
+	<nav class="navbar sitkcy-top navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+  <a class="navbar-brand" href="#">NelyDesigns</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+			<li class="nav-item">
+			 <a class="nav-link" href="../index.html">Hompage</a>
+		 </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Labs 2-5
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="../lab2/helloworld.html">Lab2</a>
+          <a class="dropdown-item" href="../lab3/index.html">Lab 3</a>
+          <a class="dropdown-item" href="../lab4/index.html">Lab 4</a>
+					<a class="dropdown-item" href="../lab5/index.html">Lab 5</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+	<div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Labs 6-10
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="lab6/helloworld.html">Lab2</a>
+          <a class="dropdown-item" href="lab7/index.html">Lab 3</a>
+          <a class="dropdown-item" href="lab8/index.html">Lab 4</a>
+					<a class="dropdown-item" href="lab9/index.html">Lab 5</a>
+					<a class="dropdown-item" href="lab10/index.html">Lab 5</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- Navigation Ends Here -->
+<!-- Content Goes Here -->
+<div class="row">
+  <div class="column" style="background-color:#F5BEBC;">
+		<div id="column-one">
+		<h1> Problems</h1>
+		<p> Some problems that I had when trying<br>to style my CSS was using a responsive<br>template. As well as styling the content
+		inside<br> of the divs.</p>
 
+	</div>
+	</div>
+  <div class="column" style="background-color:#D6C694;">
+		<div id="column-two">
+		<h1>Challenges</h1>
+     </div>
+		 <p> A challenge that I had in the beginning<br> is to properly place the divs with an id<br> so I can style the headings and paragraphs.<br>
+			 In the beginning I decided to change the<br> class coloumn to cloumn one but that didn't<br> work out. So after a few trys messing<br> around
+			 with the code I was able to figure<br> it out.
+		 </p>
+       	</div>
+  <div class="column" style="background-color:#9EB9D9;">
+		<div id="column-three">
+		<h1>Results</h1>
+		<p> As a result I was able to complete the<br> pesudeo with no problem. As well as<br>styling my
+		hompage. </p>
+  </div>
+</div>
+</div>
+<div class="content">
+  <h2>Pseudocode</h2>
+	<div class="container">
+	  <div class="row">
+	    <div class="col-md-4">
+	      <div class="thumbnail">
+	          <img src="../lab4/img/outlineoone.jpg" style="width:100%">
+	      </div>
+	    </div>
+	    <div class="col-md-4">
+	      <div class="thumbnail">
+	          <img src="../lab4/img/outlineotwo.jpg" style="width:100%">
+	      </div>
+	    </div>
+	  </div>
+	</div>
+</div>
+</div>
+<!-- Content ENDS Here -->
 </body>
 </html>
