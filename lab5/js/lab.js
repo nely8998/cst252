@@ -14,7 +14,7 @@
 var ownIt = true;
 
 // Create a new variable age that subtracts the year from the current year
-var age = new Date(2016).getFullYear(2020);
+var age = new Date().getFullYear();
 
 // Use console.log() to print the value of age, example, console.log("Age: " + age)
-console.log("Age: " + age);
+console.log("Age: " + age + <br>);
