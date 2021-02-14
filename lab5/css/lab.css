@@ -1,5 +1,5 @@
 body {
-  background-color: #ececec;
+  background-color: #F7FFFA;
   margin: 0;
   font-family: Lucida Console;
 }
@@ -8,12 +8,13 @@ body {
 .navbar-brand {
     padding: 15px;
     width: 100%;
-    background-color: #ececec;
+    background-color: #C3DFCC;
 }
 .content h1{
   text-align: center;
 }
 /* Nav Bar style */
+
 
 /* STYLING FOR COLOUMNS */
 .column {
@@ -33,13 +34,13 @@ body {
 }
 
 h1 {
-  color: black;
+  color: #916261;
   font-size: 90px;
   text-align: center;
 }
 
 h2 {
-  color: #252424;
+  color: #916261;
 }
 
 p {
