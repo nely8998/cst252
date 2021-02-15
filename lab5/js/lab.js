@@ -14,12 +14,10 @@
 var ownIt = true;
 
 // Create a new variable age that subtracts the year from the current year
-var age = new Date().getFullYear();
+var age = 2021 - year;
 
 // Use console.log() to print the value of age, example, console.log("Age: " + age)
-console.log();("Make: " + make + "<br>");
-console.log("Model: " + model + "<br>");
-console.log("Year: " + year + "<br>");
-console.log("Age: " + age + "<br>");
-
-console.log("");
+document.writeIn();("Make: " + make + "<br>");
+document.writeIn("Model: " + model + "<br>");
+document.writeIn("Year: " + year + "<br>");
+document.writeIn("Age: " + age + " year<br>");
