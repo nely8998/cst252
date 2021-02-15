@@ -17,7 +17,9 @@ var ownIt = true;
 var age = 2021 - year;
 
 // Use console.log() to print the value of age, example, console.log("Age: " + age)
-document.writeIn();("Make: " + make + "<br>");
-document.writeIn("Model: " + model + "<br>");
-document.writeIn("Year: " + year + "<br>");
-document.writeIn("Age: " + age + " year<br>");
+document.writeln("Make: " + make + "<br>");
+document.writeln("Model: " + model + "<br>");
+document.writeln("Year: " + year + "<br>");
+document.writeln("Age: " + age + "<br>");
+
+document.writeln("");
