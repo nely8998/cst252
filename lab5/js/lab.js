@@ -17,4 +17,9 @@ var ownIt = true;
 var age = new Date().getFullYear();
 
 // Use console.log() to print the value of age, example, console.log("Age: " + age)
-console.log("Age: " + age + <br>);
+console.log();("Make: " + make + "<br>");
+console.log("Model: " + model + "<br>");
+console.log("Year: " + year + "<br>");
+console.log("Age: " + age + "<br>");
+
+console.log("");
