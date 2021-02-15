@@ -1,0 +1,52 @@
+/* Body STYLING STARTS HERE */
+
+body {
+  margin: 0;
+  font-family: Optima, sans-serif;
+  background-image: url("../img/backgroundlab.png");
+  background-repeat: no-repeat;
+}
+/* Body STYLING ENDS HERE */
+/* Nav Bar style */
+.navbar-brand {
+    float: left;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+}
+.content h1{
+  text-align: center;
+}
+/* Nav Bar styling ENDS HERE */
+
+
+/* RESPONSIVE LAYOUT */
+@media (max-width: 600px) {
+  .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+/* RESPONSIVE LAYOUT -END--- */
+/* STYLING RWOS */
+
+h1 {
+  color: white;
+  font-size: 55px;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+  text-indent: 10px;
+  font-size: 18px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
