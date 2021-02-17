@@ -1,4 +1,7 @@
 /* Body STYLING STARTS HERE */
+* {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -15,12 +18,26 @@ body {
     width: 100%;
     font-size: 25px;
 }
-.content h1{
-  text-align: center;
-}
 /* Nav Bar styling ENDS HERE */
+/* FLEXBOX STYLING */
+.header {
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
 
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
 
+.column {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
 /* RESPONSIVE LAYOUT */
 @media (max-width: 600px) {
   .row {
@@ -30,18 +47,24 @@ body {
 }
 /* RESPONSIVE LAYOUT -END--- */
 /* STYLING RWOS */
-
+#end-content {
+  text-align: center;
+}
 h1 {
   color: white;
-  font-size: 55px;
+  font-size: 90px;
+  text-align: center;
 }
 
 h2 {
   color: white;
+  text-align: center;
+  font-size: 50px;
 }
 
 p {
   color: white;
+  text-align: center;
   text-indent: 10px;
   font-size: 18px;
 }
