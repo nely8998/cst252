@@ -4,13 +4,9 @@
  License: Public Domain
 */
 
-// Use getElementById() to find your output <div> and assign it to a variable outputEl
-var outputEl = document.getElementById("output");
-    console.log("outputEl: ", outputEl);
-
-// Create a new element with document.createElement("p") and assign it to a variable new1El
-var new1El = document.createElement("p");
-
+function sortUserName(){
+  var button = document.getElementById('my-button');
+}
 
 // fin the button element
 buttonEl = document.getElementById("my-button");

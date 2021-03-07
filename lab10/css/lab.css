@@ -10,15 +10,6 @@ body {
   background-repeat: no-repeat;
 }
 /* Body STYLING ENDS HERE */
-#user-name {
-  display: flex;
-  justify-content: center;
-}
-
-#my-button
-{
-margin: 0 auto;
-}
 
 /* Nav Bar style */
 .navbar-brand {
