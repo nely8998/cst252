@@ -10,7 +10,14 @@ body {
   background-repeat: no-repeat;
 }
 /* Body STYLING ENDS HERE */
-
+#button {
+   margin: 0 auto;
+   display: block;
+}
+#input {
+  margin: 0 auto;
+  display: block;
+}
 /* Nav Bar style */
 .navbar-brand {
     float: left;
@@ -19,6 +26,9 @@ body {
     font-size: 18px;
 }
 /* Nav Bar styling ENDS HERE */
+.text-center {
+  text-align: center;
+}
 /* FLEXBOX STYLING */
 .header {
   padding: 30px;
