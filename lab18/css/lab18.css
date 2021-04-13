@@ -6,8 +6,10 @@
 body {
   margin: 0;
   font-family: Optima, sans-serif;
-  background-image: url("../img/greenbackground.png");
+  background-image: url("../img/leaf.png");
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* END OF STYLING BUTTONS USING JQUERY */
@@ -58,19 +60,19 @@ body {
   text-align: center;
 }
 h1 {
-  color: white;
+  color: black;
   font-size: 50px;
   text-align: center;
 }
 
 h2 {
-  color: white;
+  color: black;
   text-align: center;
   font-size: 40px;
 }
 
 p {
-  color: white;
+  color: black;
   text-align: center;
   text-indent: 10px;
   font-size: 18px;
