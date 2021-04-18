@@ -9,6 +9,11 @@ body {
   background-image: url("../img/ninteenbackground.png");
   background-repeat: no-repeat;
 }
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* Body STYLING ENDS HERE */
 #submit {
    margin: 0 auto;

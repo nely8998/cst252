@@ -4,7 +4,7 @@
  License: Public Domain
 */
 
-URL = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY"
+URL = "https://api.nasa.gov/planetary/apod"
 
 // attach click action to button
 $('#activate').click(function(){
@@ -12,7 +12,7 @@ $('#activate').click(function(){
     // Using the core $.ajax() method
     $.ajax({
         // The URL for the request (ENDPOINT)
-        url: URL,
+        url: "https://api.nasa.gov/planetary/apod?api_key=HKrf80gEoC7yzzWQ1JkB5UsPjl10IdWstY7pwXmD",
         // The data to send (will be converted to a query string)
         // data: { id: 123},
         // Whether this is a POST or GET request
@@ -27,7 +27,9 @@ $('#activate').click(function(){
         // $("#output").append("<p>" + JSON.stringify(data));
         // $("#output").append("<p>Here's what you should do when you are bored: <b>" + data.activity);
         // $("#output").append("<p>President-elect Kanye says: <b>" + data.quote);
-        $("#output").append("<p>This is the output: <b>" + data.message);
+          $("#output").html('<img src="https://apod.nasa.gov/apod/image/2104/GravityWaves_Claro_960.jpg" height="200px" width="200px">');
+          $("#output").append("<p>This is the output: <b>" + data.explanation);
+
 
     })
 });
