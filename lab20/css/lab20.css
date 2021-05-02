@@ -1,0 +1,138 @@
+/* Body STYLING STARTS HERE */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Optima, sans-serif;
+  background-image: url("../img/ninteenbackground.png");
+  background-repeat: no-repeat;
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Body STYLING ENDS HERE */
+#submit {
+   margin: 0 auto;
+   display: block;
+}
+
+#output {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+/* styling buttons for JavaScript code */
+/* button-one */
+#button-one {
+  background-color: #FE590F;
+}
+
+#button-one.first {
+  background-color: #FE0FF0;
+}
+/* styling button to middle */
+#button-one {
+    width:20%;
+    margin-left:40%;
+    margin-right:40%;
+}
+/* button-two */
+#button-two {
+  background-color: #23E2E8;
+}
+
+#button-two.second {
+  background-color: #3BE823;
+}
+/* styling button to middle */
+#button-two {
+    width:20%;
+    margin-left:40%;
+    margin-right:40%;
+}
+/* button-three */
+#button-three {
+  background-color: #E67A63;
+}
+
+#button-three.third {
+  background-color: #CA63E6;
+}
+
+/* styling button to middle */
+#button-three {
+    width:14%;
+    margin-left:42%;
+    margin-right:42%;
+}
+
+/* END OF STYLING BUTTONS USING JQUERY */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Nav Bar style */
+.navbar-brand {
+    float: left;
+    padding: 0px;
+    width: 100%;
+    font-size: 18px;
+}
+/* Nav Bar styling ENDS HERE */
+.text-center {
+  text-align: center;
+}
+/* FLEXBOX STYLING */
+.header {
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.column {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+/* RESPONSIVE LAYOUT */
+@media (max-width: 600px) {
+  .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+/* RESPONSIVE LAYOUT -END--- */
+/* STYLING RWOS */
+#end-content {
+  text-align: center;
+}
+h1 {
+  color: white;
+  font-size: 90px;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+p {
+  color: white;
+  text-align: center;
+  text-indent: 10px;
+  font-size: 18px;
+}
