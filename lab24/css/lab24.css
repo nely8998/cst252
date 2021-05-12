@@ -5,9 +5,10 @@
 }
 
 body {
+  background-image: url("../lab24/img/wallpaper.jpg");
+  background-repeat: no-repeat;
   font-size: 1.3rem;
   font-family: 'Oswald', sans-serif;
-  background: #f9f9f9;
 }
 
 a {
@@ -47,14 +48,14 @@ a {
 }
 
 img {
-  width: 100%;
+  width: 75%;
 }
 
 .card {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
-  background: #f1f1f1;
+  background: none;
   margin-bottom: 2rem;
 }
 
@@ -70,23 +71,6 @@ img {
   padding: 2rem;
 }
 
-.card:nth-child(even) img {
-  order: 2;
-}
-
-
-.btn {
-  display: inline-block;
-  background: #000;
-  color: #fff;
-  padding: 0.8rem 1.8rem;
-  margin-top: 2rem;
-  cursor: pointer;
-}
-
-.btn:hover {
-  opacity: 0.8;
-}
 
 @media(max-width:600px) {
   .card {
